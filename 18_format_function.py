@@ -1,0 +1,21 @@
+txt1 = "Welcome to {fname} {lname}".format(fname="John", lname='Doe')
+txt2 = "Welcome to {0} {1}".format("John",'Doe')
+txt3 =  "Welcome to {} {}".format("John",'Doe')
+print(txt1)
+print(txt2)
+print(txt3)
+print()
+
+print("Spaces after text")
+txt4 = "Welcome to {fname:<5} {lname}".format(fname="Ar", lname='Web')
+print(txt4)
+print()
+
+print("Spaces before text")
+txt5 = "Welcome to {fname:>5} {lname}".format(fname="Ar", lname='Web')
+print(txt5)
+print()
+
+print("Spaces before and after text")
+txt6 = "Welcome to {fname:^5} {lname}".format(fname="Ar", lname='Web')
+print(txt6)
